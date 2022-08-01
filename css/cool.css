@@ -1,0 +1,290 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.main
+{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("../image/milky-way-4006343.jpg");
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+@media (max-width:375px){
+    .main{
+        width: 330px;
+        background-size: cover;
+    }
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.navbar
+{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+}
+.icon
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+    margin-left: -25px;
+}
+.h01
+{
+font-size: 50px;
+color: white;
+font-family:'Times New Roman', Times, serif;
+}
+.h02
+{
+    color: #ff7200;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 0px;
+    float: left;
+    margin-top: -12px;
+    letter-spacing: 1px;
+}
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+float: left;
+display: flex;
+justify-content:center;
+align-items: center;
+margin-left: 150px;
+margin-top: 15px;
+}
+ul li
+{   
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+ul li:hover{
+    background-color: white;
+}
+ul li a
+{   
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    transition:0.4s ease-in-out;
+}
+ul li a:hover
+{
+    color:black;
+    background: white;
+}
+.search
+{
+    width: 300px;
+    float:left;
+    margin-left: 900px;
+    margin-top: -40px;
+}
+.srch
+{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 39px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    color: white;
+    margin-top: 0px;
+    border-right:none;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px ;
+}
+.btn
+{
+    width: 100px;
+    height: 39px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    color: white;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus
+{
+    outline: none;
+}
+.srch:focus
+{
+    outline: none;
+
+}
+.content
+{
+    width: 1200PX;
+    height:auto;
+    margin-left: 15px;
+    color: white;
+    position: relative;
+}
+.content .par 
+{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.content h1
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 140px;
+    letter-spacing: 1px;
+}
+@media (max-width: 767px){
+    .content h1{
+        font-size: 14px;
+    }
+}
+.content .cn
+{
+    width: 160px;
+    height: 40px;
+    background-color: #ff7200;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content .cn a
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+.cn:hover
+{
+    background-color: white;
+}
+.content span
+{
+    color: #ff7200;
+    font-size: 90px;
+
+}   
+.form
+{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -60px;
+    left: 970px;
+    border-radius: 10px;
+    padding: 25px;   
+}
+.form h2
+{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 7px;
+}
+.form input
+{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+form input:focus
+{
+    outline: none;
+}
+::placeholder
+{
+    color: white;
+    font-family: arial;
+}
+.btnn
+{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.btnn:hover
+{
+    background: white;
+    color: #ff7200;
+}
+.btnn a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a
+{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw
+{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
